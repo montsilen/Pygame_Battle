@@ -22,4 +22,11 @@ Some of the pairs are really hard and none of us can word them out. A OIer used 
 有一些组合非常困难以至于我们并没有人会做。但是当时一名信息竞赛选手开科技很快解决了问题。很快啊。
 
 He first printed this fantastic poem in his program. So today as I started my program, I decided to use this poem as well.  
-他首先在程序里输出了这首优美的诗句。所以今天我创建了自己的项目时，我决定也使用这优美的诗。
+他首先在程序里输出了这首优美的诗句。所以今天我创建了自己的项目时，我决定也使用这优美的诗篇。
+
+> "The vice monitor of the Developers' club is like an idiot."I said angrily.
+
+> “开发者社的副社长是个**。”我愤怒地说。
+
+I started programing in junior two and I really enjoys it. So when it's time to choose a club to join in NSFZ, I choose the developers' club without hesitation though the club leader looked very unreliable.
+我从初二开始写程序而且我非常喜欢。所以高一选择社团时，尽管开发者社社长很不靠谱，我还是毫不犹豫地选择了开发者社。
