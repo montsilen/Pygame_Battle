@@ -16,3 +16,5 @@ A pygame battle game made by a high school student of NSFZ（南师附中学生�
 > 一壶浊酒喜相逢。  
 > 古今多少事，都付笑谈中。
   
+That was a day of many years ago(maybe not that many). I wasn't at NSFZ but at NFLS. It was a lovely day of junior 3 and some students are playing 24 points.
+Some of the pairs are really hard and none of us can word them out.
