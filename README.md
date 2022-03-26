@@ -45,4 +45,4 @@ I made some friends, and some help me developing. Now let's get to the program.
 As the first version of the program, its aim is to show a basic idea. Also, this version has nothing to do with battling.  
 作为项目的第一个版本，它的目的只是展现基本的思路。而且，这个版本和格斗没有一点关系。
 
-![alt 展示图片](./22w01a/show.png)
+![展示图片](./22w01a/show.png)
