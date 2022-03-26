@@ -28,5 +28,8 @@ He first printed this fantastic poem in his program. So today as I started my pr
 
 > “开发者社的副社长是个**。”我愤怒地说。
 
-I started programing in junior two and I really enjoys it. So when it's time to choose a club to join in NSFZ, I choose the developers' club without hesitation though the club leader looked very unreliable.
+I started programing in junior two and I really enjoys it. So when it's time to choose a club to join in NSFZ, I choose the developers' club without hesitation though the club leader looked very unreliable.  
 我从初二开始写程序而且我非常喜欢。所以高一选择社团时，尽管开发者社社长很不靠谱，我还是毫不犹豫地选择了开发者社。
+
+I made some friends, and some help me developing. Now let's get to the program.  
+我交了一些朋友，有一些帮助我开发。现在来看一看这个项目本身吧。
