@@ -36,4 +36,8 @@ I made some friends, and some help me developing. Now let's get to the program.
 
 ## The Program Itself（项目本身）
 
-### 22w01a
+### [22w01a](./22w01a.py)
+
+> "The last program is not good. Let's start a new battle game." I announced.
+
+> “上一个项目流产了，上个新格斗项目吧。”我宣布。
