@@ -36,7 +36,7 @@ I made some friends, and some help me developing. Now let's get to the program.
 
 ## The Program Itself（项目本身）
 
-### [22w01a](./22w01a.py)
+### [22w01a](./22w01a/fight.py)
 
 > "The last program is not good. Let's start a new battle game." I announced.
 
