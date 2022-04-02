@@ -66,3 +66,17 @@ Main features（主要特性）
 - Class 面向对象
 
 ### [22w03a](./22w03a/fight.py)(LTS)
+
+> "Now we are having classes online, and I will finish the program in no time."
+> “现在我们上线上课了，我两天就能把游戏写完。”
+
+It's already like an fighting game now.
+现在真的像一个格斗游戏了。
+
+Main features（主要特性）
+- Shoot 射击
+- Blood stripes 血条
+
+![展示图片](https://user-images.githubusercontent.com/99591325/161356350-45580d3c-d98c-40fe-8063-c0839ac2f0e8.png)
+
+### [22w04a](./22w04a/fight.py)
