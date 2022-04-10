@@ -1,4 +1,7 @@
-import pygame, sys
+import pygame, sys, win32api, win32con
+
+#Guiding Message
+win32api.MessageBox(0,"玩家1（射手）： 移动：WASD；射击：C；技能：V\n玩家2（战士）： 移动：方向键；攻击：O；技能：P","操作指引",win32con.MB_OK)
 
 # Create entity
 class entity():
