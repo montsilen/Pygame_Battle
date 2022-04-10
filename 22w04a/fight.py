@@ -229,6 +229,23 @@ class player(entity):
             self.attachment.dmged = []
             self.count0 = self.cd0
             self.attcount = 20
+class FPSCounter:
+    def __init__(self, surface, font, clock, color, pos):
+        self.surface = surface
+        self.font = font
+        self.clock = clock
+        self.pos = pos
+        self.color = color
+
+        self.fps_text = self.font.render(str(int(self.clock.get_fps())) + "FPS", False, self.color)
+        self.fps_text_rect = self.fps_text.get_rect(center=(self.pos[0], self.pos[1]))
+
+    def render(self):
+        self.surface.blit(self.fps_text, self.fps_text_rect)
+
+    def update(self):
+        self.fps_text = self.font.render(str(int(self.clock.get_fps())) + "FPS", False, self.color)
+        self.fps_text_rect = self.fps_text.get_rect(center=(self.pos[0], self.pos[1]))
 
 # Set the most important constants of the game
 WIDTH = 60
@@ -245,6 +262,7 @@ displaySurface = pygame.display.set_mode(SCREEN) # Create the main surface
 pygame.display.set_caption("格斗") # Set the caption of the window
 fpsClock = pygame.time.Clock()
 entitylist = [] # Create a list to save all entities
+fps_counter = FPSCounter(displaySurface, pygame.font.Font(None, 36), fpsClock, (0,255,0), (920, 55))
 
 # Import map
 brickImg = pygame.image.load("brick.png")
@@ -355,7 +373,6 @@ player1.setCDcounter(25, 90)
 player2.setCDcounter(25, 90)
 
 while True:
-    print(entitylist)
     player1.setspeed(0, player1.vy)
     player2.setspeed(0, player2.vy)
     for event in pygame.event.get():
@@ -404,6 +421,7 @@ while True:
     displaySurface.blit(hpSurface, (0, 0))
     drawHp(displaySurface, player1, player2, stripeWidth, wordWidth, place)
     drawDmg(displaySurface)
-    
+    fps_counter.render()
+    fps_counter.update()
     pygame.display.update() # Draw the surface in every frame
     fpsClock.tick(FPS)
